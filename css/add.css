@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;    
+    position: relative;
+    z-index: 0;
+}
+
+.main{
+    background-color: gray;
+    padding-inline-start: 50px;
+    padding-inline-end: 50px;
+    padding-bottom: 20px;
+    border-radius: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 16px 0 24px;
+}
+.itype{
+    display:flex;
+    flex-direction: column;
+}
+.e-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.e-type input {
+    width: 80%;          
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin: 6px 0;
+    margin-bottom: 19px;    
+}
+
+.COST{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.COST p{
+    color:azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 12px;
+    justify-content: space-around;
+}
+.cost-inp{
+    width: 80%;          
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin: 6px 0;
+    margin-bottom: 19px;    
+}
+.form-grp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-grp p{
+    color:azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 12px;
+    justify-content: space-around;
+}
+.s-box{
+    width: 80%;          
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin: 6px 0;
+    margin-bottom: 19px;    
+}
+.Date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Date p{
+    color: white;
+}
+.Date input{
+    width: 80%;          
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin: 6px 0;
+    margin-bottom: 19px;   
+}
+

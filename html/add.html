@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/add.css">
+    <title>ADD  </title>
+</head>
+<body>
+    <div class="main">
+        <h2>ADD EXPENSE</h2>
+        <div class="itype">
+            <div class="e-type">
+                <p class="a">EXPENDITURE TYPE: </p>
+                <input id="exp-type" type="text" placeholder="e.g:GROCERRIEES">
+            </div>
+            <div class="COST">
+                <p>COST: </p>
+                <input id="exp-cost" class="cost-inp" type="number" placeholder="e.g:500">
+            </div>
+            <div class="form-grp">
+                <p> CATEGROY: </p>
+                <select id="exp-category" class="s-box">
+                    <option value="" disabled selected>Select category</option>
+                    <option>Food</option>
+                    <option>Transport</option>
+                    <option>Shopping</option>
+                    <option>Study</option>
+                    <option>Others</option>
+                </select>
+            </div>
+            <div class="Date">
+                <p>Date: </p>
+                <input id="exp-date" type="text">
+            </div>
+            <button id="add-btn" type="button" class="btn btn-dark">Add Expense</button>
+        </div>
+    </div>
+    <script src="../javascript/add.js"></script>
+</body>
+</html>
