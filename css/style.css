@@ -76,8 +76,8 @@ body {
 .background-shapes {
     position: absolute;
     inset: 0;
-    background: radial-gradient(circle at 20% 30%, rgba(255,170,200,0.35), transparent 60%),
-                radial-gradient(circle at 80% 70%, rgba(160,200,255,0.35), transparent 60%),
+    background: radial-gradient(circle at 20% 30%, rgba(255,170,200,0.35), transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(160,200,255,0.35), transparent 30%),
                 #151515;
     filter: blur(40px);
     z-index: 0;
@@ -85,9 +85,12 @@ body {
 
 /* The center UI block */
 .container {
-    position: relative;
+    position:static;
     z-index: 2;
     display: flex;
+    
+    justify-content: center;
+    align-items: center;
     gap: 20px;
     padding: 24px 32px;
     background: rgba(255,255,255,0.08);

@@ -5,9 +5,11 @@ body{
     font-family: 'Segoe UI', sans-serif;
     display: flex;
     flex-direction: column;
+    row-gap: 25px;
     align-items: center;
     color: white;
 }
+
 
 h2{
     margin-top: 40px;
@@ -54,4 +56,11 @@ td{
 #expense-container div:hover{
     background: #4d4d4d;
     transition: 0.2s;
+}
+
+.bt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 25px;
 }
